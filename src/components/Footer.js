@@ -50,7 +50,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h3>Social Media Links</h3>
+          <h3>Social Media</h3>
           <ul>
             <li>
               <a href="/">Meta</a>

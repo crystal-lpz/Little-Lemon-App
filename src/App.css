@@ -99,6 +99,15 @@ h3 {
   font-size: 40px;
   margin: 0;
 }
+h5 {
+  font-size: 18px;
+  font-weight: 700;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
 
 .banner p {
   font-family: var(--font);
@@ -169,7 +178,7 @@ label {
 }
 
 .comfirm span {
-  color: blue;
+  color: var(--primary-color);
 }
 
 /* menu items */
@@ -190,6 +199,7 @@ label {
   flex-wrap: wrap;
 }
 .cards {
+  font-family: var(--font);
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
@@ -218,6 +228,10 @@ label {
 .menu-content .heading {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.menu-content .heading p {
+  font-weight: 500;
 }
 
 .orderbtn {
